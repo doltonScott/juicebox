@@ -1,12 +1,26 @@
 {
   "name": "juicebox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed:dev": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doltonScott/juicebox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doltonScott/juicebox/issues"
+  },
+  "homepage": "https://github.com/doltonScott/juicebox#readme",
+  "description": ""
 }
